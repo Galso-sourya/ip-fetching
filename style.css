@@ -1,0 +1,26 @@
+.loader{
+width:10px;
+height:35px;
+background: black;
+margin: 4px;
+
+}
+.loader-container{
+    display: none;
+}
+.loader1{
+    animation: loading 1s infinite alternate;
+}
+.loader2{
+    animation: loading 1s infinite alternate 0.5s; 
+}
+.loader3{
+    animation: loading 1s infinite alternate 0.8s; 
+}
+@keyframes loading{
+    from{
+transform: scale(1);
+    }to{
+        transform: scale(1.3);
+    }
+}
